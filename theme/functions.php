@@ -144,7 +144,7 @@ if ( ! function_exists( 'theme_scripts' ) ) {
 	function theme_scripts() {
 		$theme_dir = get_stylesheet_directory_uri();
 
-		wp_enqueue_script( 'main', "$theme_dir/assets/js/main.js", array(), null, true );
+		wp_enqueue_script( 'main', "$theme_dir/assets/js/app.js", array(), null, true );
 	}
 }
 

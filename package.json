@@ -63,8 +63,11 @@
     "webpack-stream": "3.1.0"
   },
   "dependencies": {
+    "ampersand-app": "^1.0.4",
+    "ampersand-router": "^3.0.2",
     "babel-polyfill": "6.5.0",
     "lazysizes": "1.4.0",
+    "local-links": "^1.4.0",
     "picturefill": "3.0.2",
     "react": "^15.0.1",
     "react-dom": "^15.0.1"
