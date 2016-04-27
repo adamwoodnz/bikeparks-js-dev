@@ -129,7 +129,7 @@ if ( ! function_exists( 'theme_styles' ) ) {
 	function theme_styles() {
 		$theme_dir = get_stylesheet_directory_uri();
 
-		wp_enqueue_style( 'main', "$theme_dir/assets/css/main.css", array(), null, 'all' );
+		wp_enqueue_style( 'main', "$theme_dir/assets/css/style.css", array(), null, 'all' );
 	}
 }
 
