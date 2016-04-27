@@ -20,12 +20,12 @@
  * }
  */
 module.exports = {
-	name: 'you_should_probably_change_this',
-	prettyName: 'You should probably change this...',
+	name: 'bikeparks-js',
+	prettyName: 'BikeparksJS',
 
-	description: 'The 2015 theme for {Example.com}. Built by John & Jane Doe for {Example}',
+	description: 'The second theme for bikeparks.co.nz',
 	version: '0.1.0',
-	author: 'John & Jane Doe <jd@example.com>',
-	authorURI: 'http://example.com',
+	author: 'Adam Wood <info@adamwood.nz>',
+	authorURI: 'http://adamwood.nz',
 	license: 'GPLv2 or later'
 };
