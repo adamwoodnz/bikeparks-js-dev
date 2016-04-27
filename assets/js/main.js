@@ -1,3 +1,4 @@
+/* eslint no-console: 0 */
 /**
  * Setup webpack public path
  * to enable lazy-including of
@@ -6,13 +7,8 @@
  */
 import './vendor/webpack.publicPath';
 
-/**
- * Your theme's js starts
- * here...
- */
+import React from 'react'; // eslint-disable-line
+import ReactDom from 'react-dom';
+import Nav from './scripts/Nav'; // eslint-disable-line
 
-// silly example:
-import obj from './scripts/example';
-
-/* eslint no-console: 0 */
-console.log(obj);
+ReactDom.render(<Nav />, document.querySelector('#bp-container'));
